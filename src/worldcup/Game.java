@@ -9,10 +9,10 @@ import java.util.Random;
  */
 public class Game {
 
-	private Field field;
-	private Date date;
-	private Ball ball;
-	private ArrayList<Team> teams;
+	Field field;
+	Date date;
+	Ball ball;
+	ArrayList<Team> teams;
 
 	/**
 	 * @return the field
@@ -114,10 +114,10 @@ public class Game {
 		listB.add(new Forward());
 
 		// create teams
-		Team teamA = new Team("NewTeam");
+		Team teamA = new Team("Raimon");
 		teamA.setPlayers(listA);
 		teamA.setCoach(new Coach());
-		Team teamB = new Team("Maped");
+		Team teamB = new Team("Tohu");
 		teamB.setPlayers(listB);
 		teamB.setCoach(new Coach());
 
@@ -132,7 +132,7 @@ public class Game {
 	}
 
 	public void start() {
-		System.out.println("starting match actions...");
+		System.out.println("Starting the match");
 
 		Random rand = new Random();
 

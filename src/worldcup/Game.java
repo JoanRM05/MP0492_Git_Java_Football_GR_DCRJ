@@ -117,7 +117,7 @@ public class Game {
 		Team teamA = new Team("Liverpool");
 		teamA.setPlayers(listA);
 		teamA.setCoach(new Coach());
-		Team teamB = new Team("FCBarcelona");
+		Team teamB = new Team("Marsella");
 		teamB.setPlayers(listB);
 		teamB.setCoach(new Coach());
 

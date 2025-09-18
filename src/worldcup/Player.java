@@ -4,11 +4,7 @@ public class Player extends Person{
 
 	private String position;
 	
-	public Player(String position) {
-		super();
-		this.position = position;
-	}
-
+	
 	public String getPosition() {
 		return position;
 	}

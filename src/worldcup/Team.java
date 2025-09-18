@@ -6,9 +6,9 @@ import java.util.ArrayList;
  * Class to define the team
  */
 public class Team {
-    String name;
-    Coach coach;
-    ArrayList<Player> players;    
+    private String name;
+    private Coach coach;
+    private ArrayList<Player> players;    
     
     public void play(){
             System.out.println("playing");

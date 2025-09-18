@@ -6,7 +6,7 @@ import java.util.Random;
  *  Class to define the defender
  */
 public class Defender extends Player { 
-	boolean mark;
+	private boolean mark;
 
     public void steal(Ball ball){
     	String[] effects = { "with fault", "without fault" };

@@ -9,10 +9,10 @@ import java.util.Random;
  */
 public class Game {
 
-	Field field;
-	Date date;
-	Ball ball;
-	ArrayList<Team> teams;
+	private Field field;
+	private Date date;
+	private Ball ball;
+	private ArrayList<Team> teams;
 
 	/**
 	 * @return the field

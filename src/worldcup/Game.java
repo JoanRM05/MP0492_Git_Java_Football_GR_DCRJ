@@ -114,10 +114,10 @@ public class Game {
 		listB.add(new Forward());
 
 		// create teams
-		Team teamA = new Team("Liverpool");
+		Team teamA = new Team("Raimon");
 		teamA.setPlayers(listA);
 		teamA.setCoach(new Coach());
-		Team teamB = new Team("FCBarcelona");
+		Team teamB = new Team("Tohu");
 		teamB.setPlayers(listB);
 		teamB.setCoach(new Coach());
 
@@ -132,7 +132,7 @@ public class Game {
 	}
 
 	public void start() {
-		System.out.println("starting match actions...");
+		System.out.println("Starting the match");
 
 		Random rand = new Random();
 

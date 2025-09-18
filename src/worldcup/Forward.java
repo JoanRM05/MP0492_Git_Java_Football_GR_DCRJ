@@ -25,9 +25,10 @@ public class Forward extends Player {
 	public void setKiller(boolean killer) {
 		this.killer = killer;
 	}
+	
 
-	public void kickBall(Ball ball) {
-		String[] effects = { "with spin", "too high", "off target", "straight to the keeper", "into the top corner",
+	public void kick(Ball ball) {
+		String[] effects = { "with  spin", "too high", "off target", "straight to the keeper", "into the top corner",
 				"with great power", "weak shot", "curled beautifully" };
 
 		Random rand = new Random();

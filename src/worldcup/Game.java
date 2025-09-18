@@ -114,10 +114,10 @@ public class Game {
 		listB.add(new Forward());
 
 		// create teams
-		Team teamA = new Team("NewTeam");
+		Team teamA = new Team("Liverpool");
 		teamA.setPlayers(listA);
 		teamA.setCoach(new Coach());
-		Team teamB = new Team("Maped");
+		Team teamB = new Team("Paris Saint-Germain");
 		teamB.setPlayers(listB);
 		teamB.setCoach(new Coach());
 

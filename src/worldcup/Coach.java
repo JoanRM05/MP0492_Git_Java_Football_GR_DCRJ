@@ -4,7 +4,7 @@ package worldcup;
  * Class to define the coach
  */
 public class Coach extends Person {
-	String style;
+	private String style;
 
 	public void train() {
 		System.out.println("train");

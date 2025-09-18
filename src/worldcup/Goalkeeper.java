@@ -6,7 +6,7 @@ import java.util.Random;
  * Class to define the goalkeeper
  */
 public class Goalkeeper extends Player {
-	boolean globes;
+	private boolean globes;
 
 	/**
 	 * @return the globes

@@ -10,6 +10,7 @@ public class Ball {
 	public Ball () {}
 	
 	/* GETTERS SETTERS*/
+	
 	public String getMaterial() {
 		return material;
 	}

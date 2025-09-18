@@ -6,7 +6,7 @@ import java.util.Random;
  * Class to define the forward
  */
 public class Forward extends Player {
-	boolean killer;
+	private boolean killer;
 
 	public void drible() {
 		System.out.println("dribbling");

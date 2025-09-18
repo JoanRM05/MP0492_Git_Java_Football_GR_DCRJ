@@ -4,7 +4,6 @@ public class Player extends Person{
 
 	private String position;
 	
-	
 	public String getPosition() {
 		return position;
 	}

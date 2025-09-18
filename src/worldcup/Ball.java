@@ -7,10 +7,7 @@ public class Ball {
 	private String material;
 
 	
-	public Ball (String material) {
-		super();
-		this.material = material;
-	}
+	public Ball () {}
 	
 	/* GETTERS SETTERS*/
 	public String getMaterial() {

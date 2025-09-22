@@ -13,6 +13,15 @@ public class Game {
 	private Date date;
 	private Ball ball;
 	private ArrayList<Team> teams;
+	private Referee referee;
+	
+	public Referee getReferee() {
+		return referee;
+	}
+
+	public void setReferee(Referee referee) {
+		this.referee = referee;
+	}
 
 	/**
 	 * @return the field
@@ -121,6 +130,10 @@ public class Game {
 		teamB.setPlayers(listB);
 		teamB.setCoach(new Coach());
 
+		// add referee
+		Referee referee = new Referee();
+		game.setReferee(referee);
+		
 		// add teams to game
 		ArrayList<Team> teams = new ArrayList<Team>();
 		teams.add(teamA);
@@ -164,6 +177,12 @@ public class Game {
 				((Defender) selectedPlayer).steal(this.getBall());
 			} else if (selectedPlayer instanceof Goalkeeper) {
 				((Goalkeeper) selectedPlayer).block(this.getBall());
+			}
+			
+			referee.arbitrate(selectedPlayer);
+			if(selectedPlayer.hasRedCard()) {
+				selectedTeam.getPlayers().remove(selectedPlayer);
+				
 			}
 		}
 	}

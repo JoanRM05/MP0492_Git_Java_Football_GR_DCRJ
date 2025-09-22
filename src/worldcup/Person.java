@@ -14,6 +14,6 @@ public class Person {
 	}
 
 	public void run() {
-		System.out.print("I am person");
+		System.out.print("Run ...");
 	}
 }

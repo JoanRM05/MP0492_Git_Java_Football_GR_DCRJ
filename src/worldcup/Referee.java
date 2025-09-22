@@ -20,9 +20,12 @@ public class Referee extends Person {
 		if (randomNum > 5 && randomNum <= 8) {
 			if (player.hasYellowCard()) {
 				player.setRedCard(true);
-			} else { player.setYellowCard(true);}
+				System.out.println("The player recieved a second yellow card. He has been expelled");
+			} else { player.setYellowCard(true);
+			System.out.println("The player recieved a yellow card.");}
 			
-		} else {player.setRedCard(true);}
+		} else {player.setRedCard(true);
+		System.out.println("The player received a red car directly. He has been expelled");}
 	}
 
 }
